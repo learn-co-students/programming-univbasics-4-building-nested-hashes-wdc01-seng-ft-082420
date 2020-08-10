@@ -1,7 +1,51 @@
-#Learn.co Educational Content License
+def monopoly_with_second_tier
+  {:railroad=> {
+    :pieces=> 4,
+    :rent_in_dollars=> {},
+    :names=> {} } 
+  }
+end
 
-Copyright (c) 2015 Flatiron School, Inc
+def monopoly_with_third_tier
+  {:railroad=>
+  {
+    :pieces=> 4,
+    :rent_in_dollars=>
+    {
+      :one_piece_owned=>25,
+      :two_pieces_owned=>50,
+      :three_pieces_owned=>100,
+      :four_pieces_owned=>200
+    },
+    :names=>
+    {
+      :reading_railroad=>{},
+      :pennsylvania_railroad=>{},
+      :b_and_o_railroad=>{},
+      :shortline_railroad=>{}
+    } 
+  } 
+  }
+end
 
-The Flatiron School, Inc. owns this Educational Content. However, the Flatiron School supports the development and availability of educational materials in the public domain. Therefore, the Flatiron School grants Users of the Flatiron Educational Content set forth in this repository certain rights to reuse, build upon and share such Educational Content subject to the terms of the Educational Content License set forth [here](http://learn.co/content-license) (http://learn.co/content-license). You must read carefully the terms and conditions contained in the Educational Content License as such terms govern access to and use of the Educational Content.  
-
-Flatiron School is willing to allow you access to and use of the Educational Content only on the condition that you accept all of the terms and conditions contained in the Educational Content License set forth [here](http://learn.co/content-license) (http://learn.co/content-license).  By accessing and/or using the Educational Content, you are agreeing to all of the terms and conditions contained in the Educational Content License.  If you do not agree to any or all of the terms of the Educational Content License, you are prohibited from accessing, reviewing or using in any way the Educational Content.
+def monopoly_with_fourth_tier
+  {:railroad=>
+  {
+    :pieces=> 4,
+    :rent_in_dollars=>
+    {
+      :one_piece_owned=>25,
+      :two_pieces_owned=>50,
+      :three_pieces_owned=>100,
+      :four_pieces_owned=>200
+    },
+    :names=>
+    {
+      :reading_railroad=>{ :mortgage_value=>100},
+      :pennsylvania_railroad=>{ :mortgage_value=>200},
+      :b_and_o_railroad=>{ :mortgage_value=>300},
+      :shortline_railroad=>{ :mortgage_value=>400}
+    } 
+  } 
+  }
+end
